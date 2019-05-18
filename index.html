@@ -4,44 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://github.githubassets.com/images/modules/site/integrators/google.png" type="image/x-icon">
     <title>Google</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
     <nav>
         <ul>
             <li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
             <li><a href="https://www.google.co.id/imghp?hl=en&tab=wi">Images</a></li>
-            <li><a href="https://www.google.co.id/intl/en/about/products?tab=wh"></a></li>
-            <li><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/"></a></li>
+            <li><a class="apps" href="https://www.google.co.id/intl/en/about/products?tab=wh"></a></li>
+            <li><a class="account" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/"></a></li>
         </ul>
     </nav>
     <main>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
         <form action="">
-            <div>
+            <div class="search-box">
                 <input type="text">
                 <span></span>
             </div>
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
+            <input class="submit" type="submit" value="Google Search">
+            <input class="submit" type="submit" value="I'm Feeling Lucky">
         </form>
-        <p>Google offered in: <a href="">Indonesia</a> <a href="">Basa Bali</a></p>
+        <p>
+            Google offered in: <a href="">Indonesia</a> <a href="">Basa Bali</a>
+        </p>
     </main>
     <footer>
-        <div>
-            <p>Indonesia</p>
-        </div>
-        <div>
+        <p class="language">Indonesia</p>
+        <div class="footer-link">
             <ul>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>About</li>
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">About</a></li>
             </ul>
             <ul>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
             </ul>
         </div>
     </footer>
